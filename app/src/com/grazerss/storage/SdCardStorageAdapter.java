@@ -16,7 +16,8 @@ import com.grazerss.PL;
 public class SdCardStorageAdapter extends AbstractStorageAdapter
 {
   private static final String TAG               = SdCardStorageAdapter.class.getName();
-  private static final String BASE_EXTERNAL_OLD = Environment.getExternalStorageDirectory().getPath() + "/grazerss";
+  //private static final String BASE_EXTERNAL_OLD = Environment.getExternalStorageDirectory().getPath() + "/grazerss";
+  private static final String BASE_EXTERNAL_OLD = "/storage/extSdCard/grazerss";
   private static File         BASE_DIR          = new File(BASE_EXTERNAL_OLD);
 
   private boolean             readOnly;
@@ -191,7 +192,6 @@ public class SdCardStorageAdapter extends AbstractStorageAdapter
     return f;
   }
 
-  @Override
   public int megaBytesThreshold()
   {
     return 100;
