@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="mobclix">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/mobclix.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
